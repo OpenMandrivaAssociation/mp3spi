@@ -3,7 +3,7 @@ Summary:        MP3SPI - A JSPI that adds MP3 support for Java
 URL:            http://www.javazoom.net/mp3spi/mp3spi.html
 Group:          Development/Java
 Version:        1.9.4
-Release:        %mkrel 0.0.2
+Release:        %mkrel 0.0.3
 License:        LGPL
 BuildRequires:  ant
 BuildRequires:  dos2unix
