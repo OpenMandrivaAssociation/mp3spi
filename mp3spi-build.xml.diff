@@ -1,0 +1,14 @@
+--- build.xml	2005-10-08 11:23:38.000000000 +0200
++++ build.xml	2006-01-11 10:34:32.000000000 +0100
+@@ -9,9 +9,9 @@
+     <property name="jars" value="${basedir}"/>
+     <property name="sources" value="${basedir}/src"/>
+     <property name="classes" value="${basedir}/classes"/>
+-    <property name="lib" value="${basedir}/lib"/>
++    <property name="lib" value="/usr/share/java"/>
+     <property name="tritonuslib" value="${lib}/tritonus_share.jar"/>
+-    <property name="javalayerlib" value="${lib}/jl1.0.jar"/>
++    <property name="javalayerlib" value="${lib}/jl.jar"/>
+     <property name="mp3spilib" value="${jars}/mp3spi1.9.4.jar"/>
+     <property name="api" value="${basedir}/doc"/>    
+     <property name="sourcestest" value="${basedir}/srctest"/>
